@@ -6,8 +6,8 @@ on:
 
 jobs:
   build:
-  runs-on: self-hosted
-  steps:
+    runs-on: self-hosted
+    steps:
     - name: hello world testing
       run: |
         echo "hellow world Mithun"
