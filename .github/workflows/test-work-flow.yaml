@@ -1,0 +1,13 @@
+name: test workflow
+
+on:
+  push:
+
+
+jobs:
+  build:
+  runs-on: self-hosted
+  steps:
+    - name: hello world testing
+      run: |
+        echo "hellow world Mithun"
